@@ -1,0 +1,60 @@
+.nucleo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background-color: white;
+    width: fit-content;
+    padding: 10px 20px;
+    border-radius: 100px / 50px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: red;
+}
+.verbo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: white;
+    border-radius: 100px / 50px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: red;
+}
+.argomenti{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: white;
+    border-radius: 100px / 50px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: lightblue;
+}
+.soggetto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: white;
+    border-radius: 100px / 50px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: plum;
+}
+.diretto{
+    height: 1px;
+    background-color: black;
+    width: 100px
+}
+.indiretto{
+    width: 10px;
+    height: 10px;
+    background-color: black;
+    border-radius: 100px;
+    left: 40px;
+    top: -5px;
+    position: absolute;
+}
